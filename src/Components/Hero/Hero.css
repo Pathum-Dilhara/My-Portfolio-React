@@ -1,0 +1,83 @@
+.hero{
+    display: flex;
+    height: 514px;
+    padding: 20px 170px 50px 170px;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    height: 80vh;
+    
+}
+
+.hero img{
+    width: 511px;
+    height: 511px;
+    aspect-ratio: 1/1;
+    border-radius: 999px;
+}
+
+.hero-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    align-self: stretch;
+}
+
+.hero h1{
+    font-size: 50px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #DD00E9 12.02%, rgb(255, 238, 0) 25.96%, #E510F0 46.63%, #FFC70F 66.35%, #FF22CF 81.73%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hero p{
+    color: #374151;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.hero-action{
+    display: flex;
+    flex-direction: row;
+    gap: 13px;
+}
+
+.hero-resume{
+    padding: 16px 44px 15px 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #111827;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.hero-works{
+    padding: 16px 44px 15px 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #111827;
+    font-weight: 600;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.hero-resume:hover{
+    transform: scale(1.02);
+}
+
+.hero-works:hover{
+    transform: scale(1.05);
+    padding: 16px 44px 15px 44px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background: #111827;
+    color: white;
+}
