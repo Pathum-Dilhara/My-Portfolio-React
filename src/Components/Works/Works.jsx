@@ -35,7 +35,7 @@ const Works = () => {
                             <p>Linux</p>
                         </div>
                         <div className="button">
-                            <p>View Project</p>
+                            <a href="https://github.com/Pathum-Dilhara/Azure-Load-Balancer-Terraform.git" target='_blank'><p>View Project</p></a>
                         </div>
                     </div>
                 </li>
@@ -58,7 +58,7 @@ const Works = () => {
                             <p>Javascript</p>
                         </div>
                         <div className="button">
-                            <p>View Project</p>
+                            <a href="https://github.com/Pathum-Dilhara/saas-landingpage.git" target='_blank'><p>View Project</p></a>
                         </div>
                     </div>
                 </li>
@@ -81,7 +81,7 @@ const Works = () => {
                             <p>Github</p>
                         </div>
                         <div className="button">
-                            <p>View Project</p>
+                            <a href="https://github.com/Pathum-Dilhara/CICD-Jenkins-Docker.git" target='_blank'><p>View Project</p></a>
                         </div>
                     </div>
                 </li>
@@ -104,7 +104,7 @@ const Works = () => {
                             <p>Mongodb</p>
                         </div>
                         <div className="button">
-                            <p>View Project</p>
+                            <a href="https://github.com/Pathum-Dilhara/Docker--MERN-Project.git" target='_blank'><p>View Project</p></a>
                         </div>
                     </div>
                 </li>
@@ -127,7 +127,7 @@ const Works = () => {
                             <p>HTML</p>
                         </div>
                         <div className="button">
-                            <p>View Project</p>
+                            <a href="https://github.com/Pathum-Dilhara/QA-Test.git" target='_blank'><p>View Project</p></a>
                         </div>
                     </div>
                 </li>
@@ -150,7 +150,7 @@ const Works = () => {
                             <p>HTML</p>
                         </div>
                         <div className="button">
-                            <p>View Project</p>
+                            <a href="https://github.com/Pathum-Dilhara/My-Portfolio-React.git" target='_blank'><p>View Project</p></a>
                         </div>
                     </div>
                 </li>
@@ -173,7 +173,7 @@ const Works = () => {
                             <p>HTML</p>
                         </div>
                         <div className="button">
-                            <p>View Project</p>
+                            <a href="https://github.com/Pathum-Dilhara/e-commerce-web-site.git" target='_blank'><p>View Project</p></a>
                         </div>
                     </div>
                 </li>
@@ -196,7 +196,7 @@ const Works = () => {
                             <p>Javascript</p>
                         </div>
                         <div className="button">
-                            <p>View Project</p>
+                            <a href="https://github.com/Pathum-Dilhara/Coffee-Shop.git" target='_blank'><p>View Project</p></a>
                         </div>
                     </div>
                 </li>
@@ -219,7 +219,7 @@ const Works = () => {
                             <p>Canva</p>
                         </div>
                         <div className="button">
-                            <p>View Project</p>
+                            <a href="https://www.figma.com/proto/UbiwOACMWrddNWgzGochQb/Yoga?node-id=0-1" target='_blank'><p>View Project</p></a>
                         </div>
                     </div>
                 </li>
