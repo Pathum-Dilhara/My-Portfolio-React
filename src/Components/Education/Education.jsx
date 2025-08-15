@@ -17,7 +17,7 @@ const Education = () => {
                         <div className="uni-right">
                             <h3>University of Sri Jayewardenepura</h3>
                             <h4>BSc in Physical Science</h4>
-                            <p> - Computer Science, Mathematics and Physics followed as Subjects</p>
+                            <p> - Computer Science, Mathematics and Physics followed as subjects</p>
                         </div>
                     </div>
                     <div className="scl">
