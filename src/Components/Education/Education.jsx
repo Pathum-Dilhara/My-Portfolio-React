@@ -7,6 +7,7 @@ const Education = () => {
     return (
         <div className='about' >
             <h1>Education</h1>
+            <p>My Education timeline</p>
             <div className="about-title">
                 <div className="education">
                     <div className="uni">

@@ -5,7 +5,11 @@
     height: 100vh;
     background: white;
     padding-top: 50px;
-    gap: 100px;
+    gap: 10px;
+}
+
+.about-title{
+    padding-top: 100px;
 }
 
 h1{

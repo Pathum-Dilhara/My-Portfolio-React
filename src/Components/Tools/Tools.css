@@ -1,4 +1,43 @@
+.title{
+    gap: 10px;
+}
+
 .item img{
     width: 100px;
     height: 100px;
+}
+
+.tools{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 100px 100px 0px 100px;
+    gap:80px;
+    align-items: center;
+    
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(100% / 5 - 110px);
+    background: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.item:hover{
+    transform: scale(1.03);
+    box-shadow: 3px 4px 10px 0 rgba(238, 124, 228, 0.596);
+    
+}
+
+.name{
+    font-weight: 600;
+    color: #4B5563;
 }
