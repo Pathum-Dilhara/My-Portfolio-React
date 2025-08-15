@@ -1,5 +1,7 @@
 import React from 'react';
 import "./Tools.css"
+import azure from '../../assets/tools/azure.png'
+
 
 const Tools = () => {
     return (
@@ -8,7 +10,10 @@ const Tools = () => {
             <p>Proficient in industry-standard tools and technologies</p>
             <ul className="tools">
                 <li className="item">
-                    
+                    <img src={azure} alt="" />
+                    <div className="name">
+                        Azure
+                    </div>
                 </li>
             </ul>
         </div>
