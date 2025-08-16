@@ -1,0 +1,111 @@
+.contact-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px 50px 100px;
+    gap: 10px;
+    background: white;
+}
+
+.contact-description{
+    display: flex;
+    padding-top: 100px;
+    justify-items: space-between;
+    justify-content: space-between;
+    
+    gap: 100px;
+    
+}
+
+.description-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: fit-content;
+    padding: 25px 50px 25px 50px;
+    border-radius: 10px;
+}
+
+.description-left h2{
+    font-size: 40px;
+    background: linear-gradient(90deg, #DD00E9 12.02%, rgb(255, 238, 0) 25.96%, #E510F0 46.63%, #FFC70F 66.35%, #FF22CF 81.73%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.dis{
+    color: #374151;
+    margin-bottom: 30px;
+}
+
+.contact-details img{
+    width: 40px;
+    height: 40px;
+}
+
+.contact-details{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-weight: 500;
+
+}
+
+.description-right{
+    display: flex;
+    flex-direction: column;
+    padding: 25px 50px 25px 50px;
+    background:#F9FAFB;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.description-right label{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.description-right input{
+    border: none;
+    width: 700px;
+    height: 78px;
+    padding-left: 20px;
+    border-radius: 10px;
+    background: white;
+    font-size: 18px;
+    font-family:sans-serif;
+
+
+}
+
+.description-right textarea{
+    border: none;
+    width: 700px;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    background: white;
+    font-size: 18px;
+    font-family:sans-serif;
+}
+
+.submit-button{
+    border: none;
+    display: flex;
+    width: fit-content;
+    align-self: flex-end;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background: linear-gradient(267deg, rgb(255, 238, 0) 0.06%, #B923E1 102.06%);
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.submit-button:hover{
+    transform: scale(1.02);
+}

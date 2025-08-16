@@ -13,10 +13,11 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap:100px;
     text-decoration: none;
     row-gap: 70px;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 .project{
@@ -38,7 +39,8 @@
 
 .year{
     display: flex;
-    justify-content: space-between  ;
+    justify-content: space-between;
+    color: #374151;
 }
 
 .technologies{
@@ -52,7 +54,8 @@
     justify-content: center;
     padding-top: 10px;
     cursor: pointer;
-}
+    
+} 
 
 .button p{
     padding: 10px 50px 10px 50px;
@@ -61,6 +64,7 @@
     font-weight: 500;
     align-content: center;
     border-radius: 10px;
+    transition: 0.5s ease;
 }
 
 .project-details{
@@ -76,4 +80,13 @@
 .project:hover{
     transform: scale(1.03);
     box-shadow: 3px 4px 10px 0 rgba(238, 124, 228, 0.596);
+}
+
+.description{
+    font-size: 150x;
+}
+
+.button p:hover{
+    transform: scale(1.01);
+    background:#374151 ;
 }

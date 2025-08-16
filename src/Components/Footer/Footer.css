@@ -1,0 +1,28 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px;
+    background: #111827;
+    color: white;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+}
+
+.footer-right{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.social-link i{
+    font-size: 40px;
+    transition: 0.3s;
+}
+
+.social-link i:hover{
+    color: #DD00E9;
+}
+

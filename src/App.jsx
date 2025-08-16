@@ -6,6 +6,7 @@ import Certification from './Components/Certification/Certification';
 import Tools from './Components/Tools/Tools';
 import Works from './Components/Works/Works';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Works/>
       <Certification/>
       <Contact/>
+      <Footer/>
     </div>
   );
 }
