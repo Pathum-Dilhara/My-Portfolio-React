@@ -6,6 +6,7 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <h1>Portfolio</h1>
+            <nav className="fixed top-0 left-0 w-full">
             <ul className='nav-menu'>
                 <li><AnchorLink class='anchor-link'  href='#home'>Home</AnchorLink></li>
                 <li><AnchorLink class='anchor-link' offset={50} href='#education'>Education</AnchorLink></li>
@@ -13,6 +14,7 @@ const Navbar = () => {
                 <li><AnchorLink class='anchor-link' offset={50} href='#works'>Portfolio</AnchorLink></li>
                 <li><AnchorLink class='anchor-link' offset={50} href='#certification'>Certification</AnchorLink></li>
             </ul>
+            </nav>
             <AnchorLink class='anchor-link'  href='#contact'>
                 <div className="nav-connect">Contact Me</div>
             </AnchorLink>

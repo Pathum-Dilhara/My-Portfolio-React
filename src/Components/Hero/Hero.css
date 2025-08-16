@@ -47,7 +47,7 @@
 }
 
 .hero-resume{
-    padding: 16px 44px 15px 44px;
+    padding: 18px 44px 18px 44px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
@@ -80,4 +80,8 @@
     border-radius: 10px;
     background: #111827;
     color: white;
+}
+
+.hero-action a{
+    text-decoration: none;
 }
