@@ -5,7 +5,7 @@ import scl from '../../assets/scl.jpg'
 
 const Education = () => {
     return (
-        <div className='about' >
+        <div id='education' className='about' >
             <h1>Education</h1>
             <p>My Education timeline</p>
             <div className="about-title">

@@ -17,7 +17,7 @@ import github from '../../assets/tools/github.png'
 
 const Tools = () => {
     return (
-        <div className='title' >
+        <div id='tools' className='title' >
             <h1>Tools & Technologies</h1>
             <p>Proficient in industry-standard tools and technologies</p>
             <ul className="tools">

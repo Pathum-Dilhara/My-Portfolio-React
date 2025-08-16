@@ -13,7 +13,7 @@ import cloud from '../../assets/cloud.png'
 
 const Certification = () => {
     return (
-        <div className='title' >
+        <div id='certification' className='title' >
             <h1>Certifications</h1>
             <p>Continuous learning and professional skills in Cloud Computing and related fields</p>
             <ul className="certificates">

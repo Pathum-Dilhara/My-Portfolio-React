@@ -29,3 +29,13 @@
 .nav-connect:hover{
     transform: scale(1.02);
 }
+
+.anchor-link{
+    text-decoration: none;
+    color: #111827;
+    transition: 0.3s;
+}
+
+.anchor-link:hover{
+    color: #DD00E9;
+}

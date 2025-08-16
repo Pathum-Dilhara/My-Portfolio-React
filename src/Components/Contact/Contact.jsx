@@ -6,8 +6,32 @@ import location from '../../assets/location_icon.svg'
 import video from '../../assets/video.mp4'
 
 const Contact = () => {
+
+    const onSubmit = async (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "f1f12c99-186f-4641-819f-af7397ae1f48");
+
+    const object = Object.fromEntries(formData);
+    const json = JSON.stringify(object);
+
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json"
+      },
+      body: json
+    }).then((res) => res.json());
+
+    if (res.success) {
+      alert(res.message)
+    }
+  };
+
     return (
-        <div className='contact-title' >
+        <div id='contact' className='contact-title' >
             <h1>Work Together</h1>
             <p>Have a project in mind or want to discuss design opportunities? I'd love to hear from you.</p>
             <div className="contact-description">
@@ -30,7 +54,7 @@ const Contact = () => {
                         playsInline></video>
                     </div>
                 </div>
-                <form className="description-right">
+                <form onSubmit={onSubmit} className="description-right">
                     <label htmlFor="">Subject</label>
                     <input type="text" placeholder='Enter subject' name='name'/>
                     <label htmlFor="">Your Email</label>

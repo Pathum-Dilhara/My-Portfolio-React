@@ -12,7 +12,7 @@ import ninth from '../../assets/yoga.png'
 
 const Works = () => {
     return (
-        <div className='works-title' >
+        <div id='works' className='works-title' >
             <h1>My Works</h1>
             <p>Continuous learning and professional development in Cloud Computing and related fields</p>
             <ul className="projects">

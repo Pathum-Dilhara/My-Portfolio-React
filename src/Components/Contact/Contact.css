@@ -55,14 +55,14 @@
 .description-right{
     display: flex;
     flex-direction: column;
-    padding: 25px 50px 25px 50px;
+    padding: 25px 50px 10px 50px;
     background:#F9FAFB;
     gap: 20px;
     border-radius: 10px;
 }
 
 .description-right label{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
 }
 
