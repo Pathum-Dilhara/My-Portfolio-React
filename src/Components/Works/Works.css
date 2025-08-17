@@ -4,7 +4,9 @@
     align-items: center;
     background: white;
     padding: 50px 100px 50px 100px;
+    margin: 50px 0.1px 50px 0.1px;
     gap: 10px;
+    height: 200vh;
 }
 
 
@@ -14,9 +16,8 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap:100px;
+    gap:80px;
     text-decoration: none;
-    row-gap: 70px;
     padding-top: 100px;
 }
 

@@ -1,6 +1,7 @@
 .title{
     gap: 10px;
-    padding-bottom: 100px;
+    height: 100vh;
+    margin: 50px 100px 50px 100px;
 }
 
 .item img{
@@ -11,8 +12,8 @@
 .tools{
     display: flex;
     flex-wrap: wrap;
-    padding: 100px 100px 0px 100px;
-    gap:80px;
+    padding-top: 100px;
+    gap:82px;
     align-items: center;
     
 }
