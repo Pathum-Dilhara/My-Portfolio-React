@@ -1,6 +1,6 @@
 .title{
     gap: 10px;
-    height: 100vh;
+    display: flex;
     margin: 50px 100px 50px 100px;
 }
 
