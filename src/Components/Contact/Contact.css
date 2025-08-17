@@ -27,7 +27,7 @@
 
 .description-left h2{
     font-size: 40px;
-    background: linear-gradient(90deg, #DD00E9 20.02%, rgb(16, 112, 255) 25.96%, #DD00E9 46.63%, rgb(16, 112, 255) 66.35%, #FF22CF 81.73%);
+    background: linear-gradient(90deg, #A4D665 0%, #6ECD99 47.12%, #479FC8 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -99,7 +99,7 @@
     align-self: flex-end;
     padding: 15px 30px;
     border-radius: 10px;
-    background: linear-gradient(267deg, rgb(16, 112, 255) 0.06%, #DD00E9 90.06%);
+    background: linear-gradient(90deg, #A4D665 0%, #6ECD99 47.12%, #479FC8 100%);
     color: white;
     cursor: pointer;
     font-size: 16px;

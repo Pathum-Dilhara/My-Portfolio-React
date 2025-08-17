@@ -22,7 +22,7 @@
 .nav-connect{
     padding: 15px 30px;
     border-radius: 10px;
-    background: linear-gradient(267deg, rgb(16, 112, 255) 0.06%, #DD00E9 90.06%);
+    background: linear-gradient(90deg, #A4D665 0%, #6ECD99 47.12%, #479FC8 100%);
     color: white;
     cursor: pointer;
     font-weight:600;
@@ -41,5 +41,5 @@
 }
 
 .anchor-link:hover{
-    color: #DD00E9;
+    color: #6ECD99;
 }

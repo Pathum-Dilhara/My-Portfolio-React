@@ -40,7 +40,7 @@
 
 .item:hover{
     transform: scale(1.03);
-    box-shadow: 3px 4px 10px 0 rgba(238, 124, 228, 0.596);
+    box-shadow: 3px 4px 10px 0 #A4D665;
     
 }
 

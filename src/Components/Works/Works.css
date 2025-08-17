@@ -65,7 +65,7 @@
 
 .button p{
     padding: 10px 50px 10px 50px;
-    background: linear-gradient(267deg, rgb(16, 112, 255) 0.06%, #DD00E9 90.06%);
+    background: linear-gradient(90deg, #A4D665 0%, #6ECD99 47.12%, #479FC8 100%);
     color: white;
     font-weight: 600;
     align-content: center;
@@ -85,7 +85,7 @@
 }
 .project:hover{
     transform: scale(1.03);
-    box-shadow: 3px 4px 10px 0 rgba(238, 124, 228, 0.596);
+    box-shadow: 3px 4px 10px 0 #A4D665;
 }
 
 .description{
