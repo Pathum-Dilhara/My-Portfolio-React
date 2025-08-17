@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Miniver&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+
 *{
   margin: 0.1px;
   padding: 0;
 }
 
 body{
-  height: 100vh;
   background: #F9FAFB;
   color: #111827;
   font-family: Inter;
+  scroll-behavior: smooth;
+  width: 100%;
 }
