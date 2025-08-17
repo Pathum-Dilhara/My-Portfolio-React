@@ -33,7 +33,7 @@ const Contact = () => {
     return (
         <div id='contact' className='contact-title' >
             <h1>Work Together</h1>
-            <p>Have a project in mind or want to discuss design opportunities? I'd love to hear from you.</p>
+            <p>Have a project in mind or want to discuss design opportunities? I'd love to hear from you</p>
             <div className="contact-description">
                 <div className="description-left">
                     <h2>Let's Talk</h2>

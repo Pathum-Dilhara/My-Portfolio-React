@@ -1,7 +1,12 @@
 .title{
-    gap: 10px;
     display: flex;
-    margin: 50px 100px 50px 100px;
+    align-items: center;
+    margin: 50px 100px;
+    height: 120vh;
+}
+
+.title p{
+    color: #4B5563;
 }
 
 .item img{

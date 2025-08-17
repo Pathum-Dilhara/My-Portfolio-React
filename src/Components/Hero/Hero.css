@@ -1,6 +1,6 @@
 .hero{
     display: flex;
-    margin: 20px 170px 50px 170px;
+    margin: 50px 170px;
     justify-content: center;
     align-items: center;
     gap: 40px;
@@ -9,8 +9,8 @@
 }
 
 .hero img{
-    width: 511px;
-    height: 511px;
+    width: 450px;
+    height: 450px;
     aspect-ratio: 1/1;
     border-radius: 999px;
 }
@@ -20,23 +20,21 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     align-self: stretch;
 }
 
 .hero h1{
     font-size: 50px;
     font-weight: 700;
-    background: linear-gradient(90deg, #DD00E9 12.02%, rgb(255, 238, 0) 25.96%, #E510F0 46.63%, #FFC70F 66.35%, #FF22CF 81.73%);
+    background: linear-gradient(90deg, #DD00E9 20.02%, rgb(16, 112, 255) 25.96%, #DD00E9 46.63%, rgb(16, 112, 255) 66.35%, #FF22CF 81.73%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .hero p{
     color: #374151;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
+    font-size: 15px;
 }
 
 .hero-action{
@@ -46,23 +44,25 @@
 }
 
 .hero-resume{
-    padding: 18px 44px 18px 44px;
+    padding: 15px 30px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background: #111827;
+    background: linear-gradient(267deg, rgb(16, 112, 255) 0.06%, #DD00E9 90.06%);
     color: white;
+    font-weight: 600;
     transition: 0.5s;
     cursor: pointer;
 }
 
 .hero-works{
-    padding: 16px 44px 15px 44px;
+    padding: 13px 30px;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border: 2px solid #111827;
+    border: 2px solid rgb(16, 112, 255);
     font-weight: 600;
+    color: rgb(16, 112, 255);
     transition: 0.5s;
     cursor: pointer;
 }
@@ -73,12 +73,8 @@
 
 .hero-works:hover{
     transform: scale(1.05);
-    padding: 16px 44px 15px 44px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background: #111827;
-    color: white;
+    border: 2px solid #DD00E9;
+    color: #DD00E9;
 }
 
 .hero-action a{

@@ -2,27 +2,31 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px 100px 0 100px;
+    margin: 20px 100px;
+}
+
+.navbar h1{
+    font-size: 40px;
 }
 
 .nav-menu{
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 60px;
+    gap: 35px;
     font-size: 20px;
     color: #111827;
     font-weight: 700;
 }
 
 .nav-connect{
-    padding: 20px 40px;
+    padding: 15px 30px;
     border-radius: 10px;
-    background: linear-gradient(267deg, rgb(255, 238, 0) 0.06%, #B923E1 102.06%);
-    font-size: 22px;
-    font-weight: 700;
+    background: linear-gradient(267deg, rgb(16, 112, 255) 0.06%, #DD00E9 90.06%);
     color: white;
     cursor: pointer;
+    font-weight:600;
+    font-size: 16px;
     transition: 0.5s;
 }
 
