@@ -127,6 +127,56 @@
 
  @media(max-Width:768px){
     .contact-title{
-        display: none;
+        margin: 20px 0.1px;
+        padding: 50px 30px;
+    }
+
+    .contact-description{
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .video{
+        scale: 0.6;
+        width: 100px;
+        height: 250px;
+    }
+
+    .description-right{
+        padding: 20px 35px;
+    }
+
+    .description-right input{
+        width: 320px;
+        height: 40px;
+        font-size: 12px;
+    }
+
+    .description-right textarea{
+        width: 320px;
+        height: 100px;
+        font-size: 12px;
+    }
+
+    .contact-details{
+        gap: 10px;
+    }
+
+    .contact-details img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .description-left h2{
+        font-size: 25px;
+    }
+
+    .description-right label{
+        font-size: 14px;
+    }
+
+    .submit-button{
+        padding: 10px 20px;
     }
 }

@@ -16,6 +16,7 @@
 .certificates{
     display: flex;
     flex-wrap: wrap;
+    align-items: stretch;
     padding-top: 100px;
     gap:70px;
     align-items: center;
@@ -24,7 +25,7 @@
 
 .image{
     display: flex;
-    align-items: center;
+    align-items: stretch;
     text-align: center;
     flex-direction: column;
     justify-content: space-between;
@@ -59,6 +60,29 @@ a{
  
 @media(max-Width:768px){
     .title{
+        margin: 20px 30px;
+    }
+    
+    .image img{
+    height: 100px;
+    width: 150px;
+    }
+
+    .image{
+        width: calc(100% / 2.5 - 20px);;
+    }
+
+    .certificates{
+        align-items: stretch;
+        gap: 10px;
+        padding-top: 50px;
+    }
+
+    .details i{
         display: none;
     }
-}
+
+    .details h4{
+        font-size: 14px;
+    }
+}            

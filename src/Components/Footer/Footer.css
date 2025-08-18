@@ -28,7 +28,22 @@
 
  @media(max-Width:768px){
     .footer{
-        display: none;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .social-link i{
+        font-size: 30px;
+    }
+
+    .footer-left i{
+        font-size: 10px;
+    }
+
+    .footer{
+        padding: 20px;
     }
 }
 
