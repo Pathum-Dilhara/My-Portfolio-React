@@ -22,7 +22,7 @@
 .nav-connect{
     padding: 15px 30px;
     border-radius: 10px;
-    background: linear-gradient(90deg, #A4D665 0%, #6ECD99 47.12%, #479FC8 100%);
+    background: linear-gradient(269deg, #5C4998 20.06%, #DF2483 101.74%);
     color: white;
     cursor: pointer;
     font-weight:600;
@@ -41,7 +41,7 @@
 }
 
 .anchor-link:hover{
-    color: #479FC8;
+    color: #DF2483;
 }
 
 .nav-menu-close, .nav-menu-open{
@@ -79,7 +79,7 @@
         align-items: start;
         top: 0px;
         gap: 30px;
-        background-color: #e7e7e7;
+        background-color: #f0f0f0;
         height: 100%;
         width: 350px;
         z-index: 2;

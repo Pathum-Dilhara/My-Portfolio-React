@@ -27,7 +27,7 @@
 
 .description-left h2{
     font-size: 40px;
-    background: linear-gradient(90deg, #A4D665 0%, #6ECD99 47.12%, #479FC8 100%);
+    background: linear-gradient(269deg, #5C4998 20.06%, #DF2483 101.74%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -99,7 +99,7 @@
     align-self: flex-end;
     padding: 15px 30px;
     border-radius: 10px;
-    background: linear-gradient(90deg, #A4D665 0%, #6ECD99 47.12%, #479FC8 100%);
+    background: linear-gradient(269deg, #5C4998 20.06%, #DF2483 101.74%);
     color: white;
     cursor: pointer;
     font-size: 16px;
@@ -127,7 +127,7 @@
 
  @media(max-Width:768px){
     .contact-title{
-        margin: 20px 0.1px 0 0.1px;
+        margin-top: 20px;
         padding: 30px;
     }
 

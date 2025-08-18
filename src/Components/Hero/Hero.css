@@ -27,7 +27,7 @@
 .hero h1{
     font-size: 50px;
     font-weight: 700;
-    background: linear-gradient(90deg, #A4D665 0%, #6ECD99 47.12%, #479FC8 100%) ;
+    background: linear-gradient(269deg, #5C4998 20.06%, #DF2483 101.74%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -48,7 +48,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    background: linear-gradient(90deg, #A4D665 0%, #6ECD99 47.12%, #479FC8 100%);
+    background: linear-gradient(269deg, #5C4998 20.06%, #DF2483 101.74%);
     color: white;
     font-weight: 600;
     transition: 0.5s;
@@ -60,9 +60,9 @@
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border: 2px solid #6ECD99;
+    border: 2px solid #5C4998;
     font-weight: 600;
-    color: #6ECD99;
+    color: #5C4998;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -73,8 +73,8 @@
 
 .hero-works:hover{
     transform: scale(1.05);
-    border: 2px solid #479FC8;
-    color: #479FC8;
+    border: 2px solid #DF2483;
+    color: #DF2483;
 }
 
 .hero-action a{
@@ -127,6 +127,18 @@
     
     }
 
+    .hero-works:hover{
+        
+    }
 
+    .hero-works:active{
+    transform: scale(1.05);
+    border: 2px solid #DF2483;
+    color: #DF2483;
+    }
+
+    .hero-resume:active{
+    transform: scale(1.02);
+    }
     
 }
