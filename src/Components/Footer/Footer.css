@@ -22,11 +22,19 @@
     transition: 0.3s;
 }
 
-.social-link i:hover{
+@media (hover: hover) {
+  .social-link i:hover{
     color: #DF2483;
+    }
 }
 
- @media(max-Width:768px){
+@media (hover: none) {
+  .social-link i:active{
+    color: #DF2483;
+    }
+}
+
+@media(max-Width:768px){
     .footer{
         display: flex;
         flex-direction: column-reverse;

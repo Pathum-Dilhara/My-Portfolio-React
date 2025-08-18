@@ -30,8 +30,17 @@
     transition: 0.5s;
 }
 
-.nav-connect:hover{
+
+@media (hover: hover) {
+  .nav-connect:hover{
     transform: scale(1.02);
+    }
+}
+
+@media (hover: none) {
+  .nav-connect:active{
+    transform: scale(1.02);
+    }
 }
 
 .anchor-link{
@@ -40,8 +49,16 @@
     transition: 0.3s;
 }
 
-.anchor-link:hover{
+@media (hover: hover) {
+  .anchor-link:hover{
     color: #DF2483;
+    }
+}
+
+@media (hover: none) {
+  .anchor-link:active{
+    color: #DF2483;
+    }
 }
 
 .nav-menu-close, .nav-menu-open{

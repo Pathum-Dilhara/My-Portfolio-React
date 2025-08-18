@@ -38,10 +38,18 @@
     cursor: pointer;
 }
 
-.image:hover{
+@media (hover: hover) {
+  .image:hover{
     transform: scale(1.03);
-    box-shadow: 3px 4px 10px 0 #479FC8;
-    
+    box-shadow: 3px 4px 10px 0 #479FC8;   
+    }
+}
+
+@media (hover: none) {
+  .image:active{
+    transform: scale(1.03);
+    box-shadow: 3px 4px 10px 0 #479FC8;   
+    }
 }
 
 .details h4{

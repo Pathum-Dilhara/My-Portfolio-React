@@ -34,10 +34,12 @@ const Works = () => {
                             <p>Terraform</p>
                             <p>Linux</p>
                         </div>
-                        <div className="button">
-                            <a href="https://github.com/Pathum-Dilhara/Azure-Load-Balancer-Terraform.git" target='_blank'><p>View Project</p></a>
-                        </div>
+                        
                     </div>
+                    <div className="button">
+                            <a href="https://github.com/Pathum-Dilhara/Azure-Load-Balancer-Terraform.git" target='_blank'><p>View Project</p></a>
+                    </div>
+
                 </li>
                 <li className="project">
                     <img src={second} alt="" />
@@ -79,10 +81,10 @@ const Works = () => {
                             <p>Jenkins</p>
                             <p>Docker</p>
                             <p>Github</p>
-                        </div>
-                        <div className="button">
+                        </div> 
+                    </div>
+                    <div className="button">
                             <a href="https://github.com/Pathum-Dilhara/CICD-Jenkins-Docker.git" target='_blank'><p>View Project</p></a>
-                        </div>
                     </div>
                 </li>
                 <li className="project">

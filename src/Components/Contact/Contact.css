@@ -108,10 +108,17 @@
     
 }
 
-.submit-button:hover{
+@media (hover: hover) {
+  .submit-button:hover{
     transform: scale(1.02);
+    }
 }
 
+@media (hover: none) {
+  .submit-button:active{
+    transform: scale(1.02);
+    }
+}
 
 .contact{
     display: flex;

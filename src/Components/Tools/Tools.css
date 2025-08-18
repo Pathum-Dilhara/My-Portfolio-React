@@ -38,10 +38,19 @@
     cursor: pointer;
 }
 
-.item:hover{
+
+@media (hover: hover) {
+  .item:hover{
     transform: scale(1.03);
-    box-shadow: 3px 4px 10px 0 #479FC8;
-    
+    box-shadow: 3px 4px 10px 0 #479FC8; 
+    }
+}
+
+@media (hover: none) {
+  .item:active{
+    transform: scale(1.03);
+    box-shadow: 3px 4px 10px 0 #479FC8; 
+    }
 }
 
 .name{

@@ -67,18 +67,38 @@
     cursor: pointer;
 }
 
-.hero-resume:hover{
-    transform: scale(1.02);
-}
 
-.hero-works:hover{
-    transform: scale(1.05);
-    border: 2px solid #DF2483;
-    color: #DF2483;
-}
 
 .hero-action a{
     text-decoration: none;
+}
+
+@media (hover: hover) {
+  .hero-resume:hover{
+    transform: scale(1.02);
+    }
+}
+
+@media (hover: none) {
+  .hero-resume:active{
+    transform: scale(1.02);
+    }
+}
+
+@media (hover: hover) {
+  .hero-works:hover{
+    transform: scale(1.05);
+    border: 2px solid #DF2483;
+    color: #DF2483;
+    }
+}
+
+@media (hover: none) {
+  .hero-works:active{
+    transform: scale(1.05);
+    border: 2px solid #DF2483;
+    color: #DF2483;
+    }
 }
 
 @media(max-Width:768px){
@@ -125,20 +145,6 @@
     gap: 5px;
     font-size: 12px;
     
-    }
-
-    .hero-works:hover{
-        
-    }
-
-    .hero-works:active{
-    transform: scale(1.05);
-    border: 2px solid #DF2483;
-    color: #DF2483;
-    }
-
-    .hero-resume:active{
-    transform: scale(1.02);
     }
     
 }

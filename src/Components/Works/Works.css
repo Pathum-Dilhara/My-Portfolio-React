@@ -82,17 +82,35 @@
 .project-name h3{
     font-size:16px;
 }
-.project:hover{
+
+@media (hover: hover) {
+  .project:hover{
     transform: scale(1.03);
     box-shadow: 3px 4px 10px 0 #479FC8;
+    }
+}
+
+@media (hover: none) {
+  .project:active{
+    transform: scale(1.03);
+    box-shadow: 3px 4px 10px 0 #479FC8;
+    }
 }
 
 .description{
     font-size: 14px;
 }
 
-.button p:hover{
+@media (hover: hover) {
+  .button p:hover{
     transform: scale(1.03);
+    }
+}
+
+@media (hover: none) {
+  .button p:active{
+    transform: scale(1.03);
+    }
 }
 
 @media(max-Width:768px){
