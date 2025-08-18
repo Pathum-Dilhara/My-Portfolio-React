@@ -127,8 +127,8 @@
 
  @media(max-Width:768px){
     .contact-title{
-        margin: 20px 0.1px;
-        padding: 50px 30px;
+        margin: 20px 0.1px 0 0.1px;
+        padding: 30px;
     }
 
     .contact-description{
@@ -138,13 +138,13 @@
     }
 
     .video{
-        scale: 0.6;
+        scale: 0.4;
         width: 100px;
         height: 250px;
     }
 
     .description-right{
-        padding: 20px 35px;
+        padding: 20px 30px;
     }
 
     .description-right input{
