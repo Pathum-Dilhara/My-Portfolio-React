@@ -148,13 +148,13 @@
     }
 
     .description-right input{
-        width: 320px;
+        width: 250px;
         height: 40px;
         font-size: 12px;
     }
 
     .description-right textarea{
-        width: 320px;
+        width: 250px;
         height: 100px;
         font-size: 12px;
     }

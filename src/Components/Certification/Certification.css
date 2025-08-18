@@ -64,12 +64,12 @@ a{
     }
     
     .image img{
-    height: 100px;
-    width: 150px;
+    height: 80px;
+    width: 110px;
     }
 
     .image{
-        width: calc(100% / 2.5 - 20px);;
+        width: calc(100% / 2.5 - 10px);;
     }
 
     .certificates{
