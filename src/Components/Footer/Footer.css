@@ -26,3 +26,9 @@
     color: #479FC8;
 }
 
+ @media(max-Width:768px){
+    .footer{
+        display: none;
+    }
+}
+

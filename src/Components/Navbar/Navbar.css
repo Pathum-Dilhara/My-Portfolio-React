@@ -43,3 +43,62 @@
 .anchor-link:hover{
     color: #479FC8;
 }
+
+.nav-menu-close, .nav-menu-open{
+    display: none;
+}
+
+@media(max-Width:768px){
+
+    .navbar{
+        margin: 20px 50px;
+    }
+
+    .nav-connect{
+        display: none;
+    }
+
+    .nav-menu-open{
+        display: block;
+        position: fixed;
+        right: 30px;
+        width: 20px;
+    }
+
+    .nav-menu-close{
+        display: block;
+        position: relative;
+        top:30px;
+        left: 290px;
+        width: 20px;
+    }
+
+    .nav-menu{
+        position: fixed;
+        flex-direction: column;
+        align-items: start;
+        top: 0px;
+        gap: 30px;
+        background-color: #e7e7e7;
+        height: 100%;
+        width: 350px;
+        z-index: 2;
+        transition: right 0.5s;
+        right: -350px;
+        
+    }
+
+    .nav-menu li{
+        padding-left: 40px;
+        font-size: 16px;
+    }
+
+    .nav-menu-close{
+        width: 20px;
+        padding-bottom: 100px;
+    }
+
+    .navbar h1{
+    font-size: 20px;
+}
+}

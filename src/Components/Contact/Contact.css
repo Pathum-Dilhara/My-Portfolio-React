@@ -124,3 +124,9 @@
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
+ @media(max-Width:768px){
+    .contact-title{
+        display: none;
+    }
+}

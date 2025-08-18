@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     margin: 50px 100px;
-    height: 120vh;
+    height: fit-content;
 }
 
 .title p{
@@ -47,4 +47,32 @@
 .name{
     font-weight: 600;
     color: #4B5563;
+}
+
+@media(max-Width:768px){
+    .title{
+        margin: 20px 30px;
+        height: fit-content;
+        align-items: center;
+    }
+
+    .item img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .item{
+       width: calc(100% / 3 - 60px);
+    }
+
+    .tools{
+        gap: 25px;
+        column-gap: 28px;
+        padding-top: 50px;
+    }
+    
+    .name{
+        font-size: 14px;
+    }
+ 
 }

@@ -79,3 +79,38 @@ h3{
     gap: 10px;
     justify-content: center;
 }
+
+@media(max-Width:768px){
+    
+    .about-title{
+        display: flex;
+        align-items: center;
+        height: fit-content;
+    }
+    
+    h1{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 12px;
+    }
+
+    .uni img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .scl img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .education h3{
+        font-size: 16px;
+    }
+
+    .education h4{
+        font-size: 14px;
+    }
+}
