@@ -58,11 +58,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 10px;
+    padding-top: 20px;
     cursor: pointer;
 } 
 
 .button p{
+    
     padding: 10px 50px 10px 50px;
     background: linear-gradient(269deg, #5C4998 20.06%, #DF2483 101.74%);
     color: white;

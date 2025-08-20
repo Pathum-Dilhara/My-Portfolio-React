@@ -19,16 +19,13 @@
     align-items: stretch;
     padding-top: 100px;
     gap:70px;
-    align-items: center;
     justify-content: space-between;
 }
 
 .image{
     display: flex;
-    align-items: stretch;
     text-align: center;
     flex-direction: column;
-    justify-content: space-between;
     width: calc(100% / 3 - 110px);
     background: white;
     padding: 10px 20px 10px 20px;
