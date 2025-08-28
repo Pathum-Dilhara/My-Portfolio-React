@@ -107,11 +107,13 @@
 @media(max-Width:768px){
 
    .hero{
+    padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px 30px;
     height: fit-content;
+    background-image:none;
    }
 
    .hero img{
