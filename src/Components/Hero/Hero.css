@@ -1,11 +1,14 @@
 .hero{
     display: flex;
-    margin: 50px 170px;
+    padding: 50px 170px;
     justify-content: center;
     align-items: center;
     gap: 40px;
     height: 80vh;
-    
+    background-image: url('/src/assets/bg.png');
+    background-size: cover;    
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 
 .hero img{
